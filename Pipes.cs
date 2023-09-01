@@ -51,6 +51,8 @@ public class Pipes
                 float yPos = _pipes[i].Position.Y;
 
                 _pipes[i].Position = new Vector2f(800, yPos);
+
+                _offset = new Random().Next(0, 100);
             }
         }
     }
